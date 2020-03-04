@@ -1,0 +1,118 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(240, 240, 240);
+    /* background-color:  rgb(240, 240, 240); */
+    overflow: hidden;
+}
+
+#slogan{
+    margin-top: 33vh;
+    text-align: center;
+    font-size: 50px;
+}
+
+#displayFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+#page{
+    width: 100%;
+    height: 100vh;
+}
+
+#dim{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    margin: 0px;
+    padding: 1vw;
+    color: black;
+    color: #414549;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    user-select: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Top Panel Start */
+#top{
+    display: flex;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    height: 12vh;
+    flex-direction: row;
+    background-color: rgb(240, 240, 240);
+    filter: opacity(90%);
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 0px whitesmoke,
+    0px 0px 5px 10px rgba(204, 204, 204, 0.486);
+}
+
+#home{
+    border-bottom: 2px solid #4D90FE;
+}
+
+#logo{
+    background-color: whitesmoke;
+    padding: 1vw;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 10px 1px whitesmoke;
+    border:  2px solid black;
+}
+
+#front{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin-top: -14vh;
+    z-index: -10;
+}
+
+#logoTitle{
+    margin-top: 1vw;
+}
+
+
+#menu{
+    display: flex;
+    width: 70vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menuItem:hover{
+    cursor: pointer;
+    background-color: rgba(204, 204, 204, 0.486);
+}
+
+#quote{
+    border: 2px solid black;
+    background-color: rgba(204, 204, 204, 0.486);
+}
+
+#quote:hover{
+    filter: invert(100%);
+    color: black;
+    cursor: pointer;
+}
+
+/*Top Panel End */
